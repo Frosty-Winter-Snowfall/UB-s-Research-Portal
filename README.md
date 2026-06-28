@@ -100,10 +100,14 @@ UBs-Research-Portal/
 │
 └── frontend/
     ├── src/
+    │   ├── api/
     │   ├── components/     ← Reusable UI pieces
     │   ├── pages/          ← Role-based views
     │   ├── context/        ← Auth state
-    │   └── App.jsx         ← Router + layout
+    │   └── App.js         ← Router + layout
+    │   ├── App.css
+    │   ├── index.js
+    │   ├── index.css
     └── package.json
     └── package-lock.json
 ```
@@ -126,7 +130,7 @@ Papers can be filtered by:
 - 🏷️ Category / research domain
 - 📅 Date range
 - 📊 Status (pending / accepted / rejected)
-- Pagination so your browser doesn't cry
+- Pagination 
 
 ---
 
@@ -148,7 +152,7 @@ User ──< Submission >── Paper
 
 - This was built for the App Dev Lab capstone (Jan 2026 term)
 - Database auto-migrates on startup — no manual setup needed
-- File uploads stored locally (no S3, keeping it real)
+- File uploads stored locally (no S3)
 - The "Hall of Fame" feature was genuinely fun to build
 
 ---
@@ -161,4 +165,4 @@ User ──< Submission >── Paper
 
 ---
 
-*Made by Urjaswi · ADL Jan 2026 · UB's Research Portal*
+*Made by Urjaswi Banerjee · ADL Jan 2026 · UB's Research Portal*
