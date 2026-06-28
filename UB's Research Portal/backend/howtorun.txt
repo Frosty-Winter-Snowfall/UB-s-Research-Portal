@@ -1,0 +1,14 @@
+Hellooo welcome to my app UB's Research Portal. 
+Here is the howtorun for your help as well as mine.
+I do not have any env files and my database is also auto updating.
+
+
+1. first open vscode in the file directory
+2. then open two terminales in vs code
+3. in first one do cd backend
+4. in second one do cd frontend
+5. in both do npm install
+6. in backend do npm run dev
+7. in frontend do npm start
+
+:)
